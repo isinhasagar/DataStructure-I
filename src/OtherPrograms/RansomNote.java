@@ -1,3 +1,5 @@
+package OtherPrograms;
+
 import java.util.HashMap;
 
 public class RansomNote {

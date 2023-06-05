@@ -1,4 +1,4 @@
-/* You are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.
+package OtherPrograms;/* You are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.
 The reshaped matrix should be filled with all the elements of the original matrix in the same row-traversing order as they were.
 
 Input: mat = [[1,2],[3,4]], r = 1, c = 4
