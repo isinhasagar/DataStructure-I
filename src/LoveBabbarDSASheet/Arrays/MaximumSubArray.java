@@ -15,10 +15,11 @@ public class MaximumSubArray {
         int currentSum = 0;
         int maximumSum = Integer.MIN_VALUE;
         for(int i=0; i<nums.length; i++){
-            currentSum = currentSum + nums[i];
+            currentSum = Math.max(nums[i], currentSum + nums[i]);
+            //currentSum = currentSum + nums[i];
             maximumSum = Math.max(currentSum, maximumSum);
-            if(currentSum < 0)
-                currentSum = 0;
+            //if(currentSum < 0)
+            //    currentSum = 0;
         }
         return maximumSum;
     }

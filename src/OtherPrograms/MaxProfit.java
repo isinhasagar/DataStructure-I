@@ -7,15 +7,15 @@ public class MaxProfit {
     public static int getProfit(int[] arr){
         if(arr.length <= 1)
             return 0;
-        int diff = arr[1] - arr[0];
+        int profit = arr[1] - arr[0];
         int minNumber = arr[0];
         for(int i=1; i<arr.length; i++){
-            if(arr[i] - minNumber > diff)
-                diff = arr[i] - minNumber;
+            if(arr[i] - minNumber > profit)
+                profit = arr[i] - minNumber;
             if(arr[i] < minNumber)
                 minNumber = arr[i];
         }
-        return diff;
+        return profit;
     }
 
     public static void main(String[] args) {
