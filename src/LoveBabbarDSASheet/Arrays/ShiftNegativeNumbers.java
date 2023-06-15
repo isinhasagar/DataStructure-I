@@ -1,6 +1,8 @@
-package LoveBabbarDSASheet.Arrays;
+/*
+ Solution 1: Sort the array
+ */
 
-// Solution 1: Sort the array
+package LoveBabbarDSASheet.Arrays;
 
 import java.util.Arrays;
 

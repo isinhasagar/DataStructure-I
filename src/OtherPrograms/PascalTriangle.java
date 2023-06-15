@@ -1,9 +1,10 @@
-package OtherPrograms;/* Given an integer numRows, return the first numRows of Pascal's triangle.
+/* Given an integer numRows, return the first numRows of Pascal's triangle.
 
 Input: numRows = 5
 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 */
 
+package OtherPrograms;
 import java.util.ArrayList;
 import java.util.List;
 

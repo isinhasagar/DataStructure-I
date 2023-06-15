@@ -1,8 +1,10 @@
-package LoveBabbarDSASheet.Arrays;
+/*
+Solution 1: Create a new array and fill that array in reverse order. Time O(n), Space O(n)
+Solution 2: In the same array swap last element with first element and so on. Time O(n), Space(1)
+Solution 3: Using recursion
+*/
 
-// Solution 1: Create a new array and fill that array in reverse order. Time O(n), Space O(n)
-// Solution 2: In the same array swap last element with first element and so on. Time O(n), Space(1)
-// Solution 3: Using recursion
+package LoveBabbarDSASheet.Arrays;
 
 import java.util.Arrays;
 

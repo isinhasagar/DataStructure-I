@@ -1,9 +1,11 @@
+/*
+Solution 1: Sort the array. O(nlogn)
+Solution 2: Traverse the array and keep count of 0s, 1s and 2s and fill the array with same count.
+ */
+
 package LoveBabbarDSASheet.Arrays;
 
 import java.util.Arrays;
-
-// Solution 1: Sort the array. O(nlogn)
-// Solution 2: Traverse the array and keep count of 0s, 1s and 2s and fill the array with same count.
 
 public class Sort012 {
     public static int[] sort012(int a[], int n)
