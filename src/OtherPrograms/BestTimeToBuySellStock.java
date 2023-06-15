@@ -22,7 +22,7 @@ public class BestTimeToBuySellStock {
     }
 
     public static void main(String a[]){
-        int[] prices = new int[] {7,1,5,3,6,4};
-        System.out.println(BestTimeToBuySellStock.maxProfit(prices));
+        int [] input = new int[] {200,2,98,5,89,20,100,1,2};
+        System.out.println(BestTimeToBuySellStock.maxProfit(input));
     }
 }

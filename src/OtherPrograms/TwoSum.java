@@ -7,6 +7,7 @@ Input:
 Time Complexity = O(n)
 */
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,6 +26,6 @@ public class TwoSum {
     public static void main(String a[]){
         int input[] = new int[] {2,7,11,15};
         int target = 9;
-        System.out.print(TwoSum.calculate(input, target));
+        System.out.print(Arrays.toString(TwoSum.calculate(input, target)));
     }
 }

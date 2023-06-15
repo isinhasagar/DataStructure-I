@@ -1,14 +1,13 @@
-package OtherPrograms;/*  Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times
- as it shows in both arrays and you may return the result in any order.
+/*  Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times
+ as it shows in both arrays, and you may return the result in any order.
 
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
 Output: [2,2]
  */
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+package LoveBabbarDSASheet.Arrays;
+
+import java.util.*;
 
 public class IntersectionOfTwoArrays {
     public static int[] intersect(int[] nums1, int nums2[]){
@@ -47,9 +46,9 @@ public class IntersectionOfTwoArrays {
     }
 
     public static void main(String a[]){
-        int nums1[] = new int[] {1,2,3,1};
-        int nums2[] = new int[] {2,3};
-        System.out.println(IntersectionOfTwoArrays.intersect(nums1, nums2));
+        int[] nums1 = new int[] {1,2,3,1};
+        int[] nums2 = new int[] {2,3};
+        System.out.println(Arrays.toString(IntersectionOfTwoArrays.intersect(nums1, nums2)));
     }
 
 }

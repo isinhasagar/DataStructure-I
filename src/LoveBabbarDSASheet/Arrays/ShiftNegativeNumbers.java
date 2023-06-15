@@ -1,8 +1,12 @@
 package LoveBabbarDSASheet.Arrays;
 
+// Solution 1: Sort the array
+
+import java.util.Arrays;
+
 public class ShiftNegativeNumbers {
 
-    static void shiftall(int[] arr, int left, int right){
+    static int[] shiftall(int[] arr, int left, int right){
         while(left <= right){
 
             // Both are negative
@@ -27,27 +31,30 @@ public class ShiftNegativeNumbers {
                 right--;
             }
         }
+        return arr;
     }
 
-    static void display(int[] arr, int right)
-    {
+    static int[] shiftNegative(int[] arr, int left, int right){
+        while(left < right){
+            while(arr[left] < 0) left++;
+            while(arr[right] > 0) right--;
 
-        // Loop to iterate over the element
-        // of the given array
-        for(int i = 0; i <= right; ++i)
-            System.out.print(arr[i] + " ");
+            if(left >= right) break;
 
-        System.out.println();
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+        }
+        return arr;
     }
 
     // Drive code
     public static void main(String[] args)
     {
         int[] arr = { -12, 11, -13, -5, 6, -7, 5, -3, 11 };
-        int arr_size = arr.length;
 
         // Function Call
-        shiftall(arr, 0, arr_size - 1);
-        display(arr, arr_size - 1);
+        System.out.println(Arrays.toString(shiftall(arr, 0, arr.length - 1)));
+        System.out.println(Arrays.toString(shiftNegative(arr, 0, arr.length - 1)));
     }
 }
