@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class MinimiseTheMaxDiff {
 
     public static int getMinDiff(int[] arr, int size, int k){
+        if(size==1) return 0;
         Arrays.sort(arr);
         int ans = arr[size-1] - arr[0];
         int min, max;
