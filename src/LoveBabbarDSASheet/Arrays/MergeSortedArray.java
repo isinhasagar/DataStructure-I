@@ -13,21 +13,23 @@ Input:
 
 Time Complexity = O(m + n)
 */
-package OtherPrograms;
+package LoveBabbarDSASheet.Arrays;
 
 public class MergeSortedArray {
+
+    // 2-Pointer Approach
     public static void calculate(int[] a, int[] b, int m, int n) {
         int pointer1 = m-1, pointer2 = n-1, i = m+n-1;
         while(pointer2 >= 0){
             if(pointer1 >= 0 && a[pointer1] > b[pointer2]){
                 a[i--] = a[pointer1--];
                 //i--;
-                //p1--;
+                //pointer1--;
             }
             else {
                 a[i--] = b[pointer2--];
                 //i--;
-                //p2--;
+                //pointer2--;
             }
         }
     }

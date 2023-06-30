@@ -18,6 +18,7 @@ public class ValidShuffle {
         if(s1.length()+s2.length() != result.length())
             return "Not a valid Shuffle.";
 
+        // Add all characters of S1 in map
         HashMap<Character, Integer> map = new HashMap<>();
         for(int i=0; i<s1.length(); i++){
             if(map.containsKey(s1.charAt(i)))
@@ -25,12 +26,16 @@ public class ValidShuffle {
             else
                 map.put(s1.charAt(i), 1);
         }
+
+        // Add all characters of S2 in map
         for(int i=0; i<s2.length(); i++){
             if(map.containsKey(s2.charAt(i)))
                 map.put(s2.charAt(i), map.get(s2.charAt(i))+1);
             else
                 map.put(s2.charAt(i), 1);
         }
+
+        // Validate from map to see if all characters of result are present
         for(int i=0; i<result.length(); i++){
             if(map.containsKey(result.charAt(i))){
                 map.put(result.charAt(i), map.get(result.charAt(i))-1);

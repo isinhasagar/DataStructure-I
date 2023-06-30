@@ -1,3 +1,7 @@
+/*
+153 is Armstrong number because 1^3 + 5^3 + 3^3 = 153
+ */
+
 package OtherPrograms;
 
 public class ArmstrongNumber {
