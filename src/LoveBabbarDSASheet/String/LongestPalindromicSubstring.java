@@ -27,8 +27,8 @@ public class LongestPalindromicSubstring {
     public static String longestPalindromicSubstring(String str){
         int start = 0, end = 0;
         for(int i=0; i<str.length(); i++){
-            int len1 = expandFromCenter(str, i, i+1);
-            int len2 = expandFromCenter(str, i, i);
+            int len1 = expandFromCenter(str, i, i+1); //
+            int len2 = expandFromCenter(str, i, i); // this handles case where middle character is unique like "e" in racecar. Here we just compare e with e.
             int length = Math.max(len1, len2);
 
             if(end-start < length){
@@ -39,12 +39,12 @@ public class LongestPalindromicSubstring {
         return str.substring(start, end+1);
     }
 
-    private static int expandFromCenter(String str, int i, int j){
-        while(i>=0 && j<str.length() && str.charAt(i) == str.charAt(j)){
-            i--;
-            j++;
+    private static int expandFromCenter(String str, int left, int right){
+        while(left>=0 && right<str.length() && str.charAt(left) == str.charAt(right)){
+            left--;
+            right++;
         }
-        return j-i-1;
+        return right-left-1;
     }
 
     private static boolean checkPalindrome(String str){
