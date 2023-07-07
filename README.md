@@ -41,14 +41,14 @@ Linked List:
 
 More LinkedList Problems:
 -------------------------
-12. Detect a Cycle in Linked List
-13. Find the middle of the LinkedList
-14. Delete a node when the address of node is given
-15. Reverse Nodes in K-groups size
-16. Flattening of a Linked List
-17. Finding the starting point of the Linked List
-18. Clone a Linked List by next and random pointers
-19. Rotate a Linked List by K places
+11. Detect a Cycle in Linked List
+12. Find the middle of the LinkedList
+13. Delete a node when the address of node is given
+14. Reverse Nodes in K-groups size
+15. Flattening of a Linked List
+16. Finding the starting point of the Linked List
+17. Clone a Linked List by next and random pointers
+18. Rotate a Linked List by K places
 
 Binary Tree:
 ----------------------------------------------------------------------------------------
