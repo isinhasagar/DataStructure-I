@@ -1,6 +1,7 @@
 # DataStructure-I
 
 Array:
+----------------------------------------------------------------------------------------
 1. Two Sum
 2. Container With Most Water
 3. Best Time to Buy and Sell Stock
@@ -13,6 +14,7 @@ Array:
 10. Find All Numbers Disappeared in an Array
 
 String:
+----------------------------------------------------------------------------------------
 1. Reverse String
 2. Valid Anagram
 3. Longest Palindromic Substring
@@ -25,6 +27,7 @@ String:
 10. ZigZag Conversion
 
 Linked List:
+----------------------------------------------------------------------------------------
 1. Reverse Linked List
 2. Merge Two Sorted Lists
 3. Add Two Numbers
@@ -36,7 +39,19 @@ Linked List:
 9. Copy List with Random Pointer
 10. LRU Cache
 
+More LinkedList Problems:
+-------------------------
+12. Detect a Cycle in Linked List
+13. Find the middle of the LinkedList
+14. Delete a node when the address of node is given
+15. Reverse Nodes in K-groups size
+16. Flattening of a Linked List
+17. Finding the starting point of the Linked List
+18. Clone a Linked List by next and random pointers
+19. Rotate a Linked List by K places
+
 Binary Tree:
+----------------------------------------------------------------------------------------
 1. Maximum Depth of Binary Tree
 2. Invert Binary Tree
 3. Symmetric Tree
@@ -49,6 +64,7 @@ Binary Tree:
 10. Flatten Binary Tree to Linked List
 
 Dynamic Programming:
+----------------------------------------------------------------------------------------
 1. Climbing Stairs
 2. Coin Change
 3. Longest Increasing Subsequence
@@ -61,6 +77,7 @@ Dynamic Programming:
 10. Best Time to Buy and Sell Stock
 
 Graph:
+----------------------------------------------------------------------------------------
 1. Course Schedule
 2. Number of Islands
 3. Word Ladder
@@ -73,6 +90,7 @@ Graph:
 10. Graph Valid Tree
 
 Backtracking:
+----------------------------------------------------------------------------------------
 1. Permutations
 2. Subsets
 3. Letter Combinations of a Phone Number
@@ -85,6 +103,7 @@ Backtracking:
 10. Restore IP Addresses
 
 Sorting and Searching:
+----------------------------------------------------------------------------------------
 1. Merge Intervals
 2. Find First and Last Position of Element in Sorted Array
 3. Search in Rotated Sorted Array
@@ -97,6 +116,7 @@ Sorting and Searching:
 10. Find Minimum in Rotated Sorted Array
 
 Stack and Queue:
+----------------------------------------------------------------------------------------
 1. Valid Parentheses
 2. Min Stack
 3. Implement Queue using Stacks
@@ -109,6 +129,7 @@ Stack and Queue:
 10. Simplify Path
 
 Greedy:
+----------------------------------------------------------------------------------------
 1. Jump Game
 2. Container With Most Water
 3. Non-overlapping Intervals
