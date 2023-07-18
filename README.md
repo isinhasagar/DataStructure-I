@@ -105,9 +105,9 @@ Backtracking:
 Sorting and Searching:
 ----------------------------------------------------------------------------------------
 1. Merge Intervals
-2. Find First and Last Position of Element in Sorted Array
+2. Find the First and Last Position of the Element in the Sorted Array
 3. Search in Rotated Sorted Array
-4. Find Peak Element
+4. Find the Peak Element
 5. Kth Largest Element in an Array
 6. Median of Two Sorted Arrays
 7. Search a 2D Matrix
@@ -140,3 +140,20 @@ Greedy:
 8. Queue Reconstruction by Height
 9. Gas Station
 10. Meeting Rooms II
+
+
+
+----------------------------------------------------------------------------------------
+How to approach a recursion problem:
+
+1. Identify if you can break the problem into smaller problems.
+2. Write the recurrence relation if needed.
+3. Draw the recursion tree & pointers again and again using a pen and paper.
+4. See how the values are returned at each point.
+
+About the recursion tree:
+1. See the flow of functions, and how they are getting into the stack
+2. Identify & focus on left tree calls and right tree calls (like in Fibonacci calculation)
+----------------------------------------------------------------------------------------
+
+
