@@ -16,15 +16,13 @@ package LeetCode75.ArraysStrings;
 
 public class GCDOfStrings {
     public static String gcdOfStrings(String str1, String str2) {
-        int n1 = str1.length();
-        int n2 = str2.length();
-        if(!(str1+str2).equals(str2+str1)){
-            return "";
-        }
-        return str1.substring(0,gcd(n1,n2));
+        if(!(str1+str2).equals(str2+str1)) return "";
+
+        return str1.substring(0,gcd(str1.length(),str2.length()));
     }
 
     private static int gcd(int n1, int n2){
+        //return n2 == 0 ? n1 : gcd(n2, n1 % n2);
         while(n1%n2 != 0){
             int rem = n1%n2;
             n1 = n2;

@@ -24,8 +24,9 @@ public class ReverseVowels {
     }
 
     static boolean isVowel(char c) {
-        String VOWELS = "aeiouAEIOU";
-        return VOWELS.indexOf(c) != -1;
+        return (c=='a' || c=='e' || c=='i' || c=='o' || c=='u' || c=='A' || c=='E' || c=='I' || c=='O' || c=='U');
+//        String VOWELS = "aeiouAEIOU";
+//        return VOWELS.indexOf(c) != -1;
     }
 
     public static void main(String[] args) {
